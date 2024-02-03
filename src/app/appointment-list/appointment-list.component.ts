@@ -25,8 +25,6 @@ export class AppointmentListComponent {
       //clear the input
       this.newAppointmentTitle = '';
       this.newAppointmentDate = new Date();
-
-      alert(this.appointments.length);
     }
   }
 
